@@ -1,0 +1,10 @@
+opencv-python
+numpy
+Pillow
+PyMuPDF
+python-docx
+reportlab
+streamlit
+pytest
+ruff
+pyyaml

@@ -1,0 +1,40 @@
+# Byte-compiled Python files and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Virtual environments (keep your local environment out of Git)
+.venv/
+venv/
+env/
+.conda/
+
+# Generated handwriting glyphs, raw scans, and output PDFs
+data/glyphs/
+data/scans/
+output/
+*.pdf
+!assets/template_sheet.pdf
+
+# AI model weights and large checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Editor and OS files (Windows, Linux/WSL, VS Code)
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
